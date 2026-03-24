@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-from sklearn.metrics import r2_score, mean_absolute_error
+
 
 # Load model
 with open('model.pkl', 'rb') as f:
